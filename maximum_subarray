@@ -1,0 +1,46 @@
+##2022 2학기 알고리즘 수업 과제 중 maximum subarray를 찾는 문제
+def find_max_subary_cross(A, low, mid, high):
+  left_sum = float("-inf")
+  sum = 0
+  max_left_index= 0
+  max_right_index=0
+  for i in range(mid,low-1, -1): #반복문 마지막 인덱스 포함 안됨 주의
+    sum = sum + A[i] 
+    if(sum > left_sum):
+      left_sum = sum
+      max_left_index = i
+  right_sum = float("-inf")
+  sum = 0
+  for j in range(mid+1, high +1):
+    sum = sum +A[j]
+    if (sum > right_sum):
+      right_sum = sum 
+      max_right_index = j 
+  return (max_left_index,max_right_index,left_sum+right_sum)
+
+def find_max_subary(A, low, high):
+  if (high == low):
+    return (low,high,A[low])
+  else:
+    mid = (low + high) // 2 
+    left_low, left_high, left_sum = find_max_subary(A, low, mid)
+    right_low, right_high, right_sum = find_max_subary(A, mid+1, high)
+    cross_low, cross_high, cross_sum = find_max_subary_cross(A,low,mid,high)
+  if ((left_sum >= right_sum) and (left_sum >= cross_sum)):
+    return (left_low, left_high, left_sum)
+  elif ((right_sum >= left_sum) and (right_sum >= cross_sum)):
+    return (right_low, right_high, right_sum)
+  else:
+    return (cross_low, cross_high, cross_sum)
+
+A = []
+num = int(input())
+for i in range(0,num):
+  A.append(int(input()))
+
+high = num - 1
+low = 0
+start, end, sum = find_max_subary(A, low, high) 
+print(start)
+print(end)
+print(sum)
