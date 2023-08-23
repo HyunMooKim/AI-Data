@@ -7,7 +7,16 @@
   <a href="https://colab.research.google.com/drive/1yNudDAxIf4Gx-eXcuvkDipw16gynFCq5?usp=sharing" target="_blank">Open In Colab</a>
 <p>Code for KRX Stock Investment Algorithm Contest. This code is for the KRX Stock Investment Algorithm Contest and is used for developing and testing investment strategies using Korean stock market data. The code includes data preprocessing, feature engineering, model training and evaluation, and prediction. The code is hosted on Google Colab and can be accessed through the provided link.</p>
 
-<p>KRX 주식 투자 알고리즘 대회 예선 코드로, 한국 주식 데이터를 사용하여 투자 포트폴리오를 만듭니다. 코드에는 데이터 전처리, 피처 엔지니어링, 모델 학습 및 평가, 그리고 예측이 있습니다. 링크를 통해서도 액세스할 수 있습니다. </p>
+<p>KRX 주식 투자 알고리즘 대회 예선 코드로, 한국 주식 데이터를 사용하여 1~2000위 순위를 매긴 포트폴리오를 만드는 코드입니다. 데이터 전처리, 피처 엔지니어링, 모델 학습 및 평가, 그리고 예측 등의 내용이 있습니다. </p>
+
+## Electricity_contest
+100개 건물의 전력 사용량 예측 대회 코드 <br> 
+<a href="https://colab.research.google.com/drive/1T97mUZf2WwbRg4It7gtBzetqPN-6TqH_?usp=sharing" target="_blank">Open In Colab</a>
+
+<p> EDA로 데이터가 어떤 특성을 갖는지 살펴보고, 데이터 featuring으로 의미 있는 파생 변수들을 만들고 XGBOOST, CATBOOST, LGBM, Random Forest 등 다양한 기법을 이용하여 예측을 진행해 보았습니다.
+<br>
+ 낮을수록 좋은 SMAPE 점수 6.1점대로 우승자들의 점수인 4.8~5.1까지 낮추지는 못했지만, EDA부터 모델 구축 및 예측까지의 과정을 혼자 진행해 볼 수 있었습니다.</p>
+
 
 
 ## 다중회귀분석
