@@ -9,6 +9,13 @@
 
 <p>KRX 주식 투자 알고리즘 대회 예선 코드로, 한국 주식 데이터를 사용하여 1~2000위 순위를 매긴 포트폴리오를 만드는 코드입니다. 데이터 전처리, 피처 엔지니어링, 모델 학습 및 평가, 그리고 예측 등의 내용이 있습니다. </p>
 
+## Kim-Monte Carlo 
+ <a href="https://colab.research.google.com/drive/1KbifpPGvyYG17oHZxXQ-n8rfZFUWbvWh?usp=sharing" target="_blank">Open In Colab</a>
+<p>한양대학교 Jong Soo Kim & Yongil Cho 교수님의 IEEE 논문에 나온 Kim-Monte Carlo 알고리즘 구현
+<br>IEEE 문서 링크: https://ieeexplore.ieee.org/document/8736872</p>
+<p></p>
+
+
 ## Electricity_contest
 100개 건물의 전력 사용량 예측 대회 코드 <br> 
 <a href="https://colab.research.google.com/drive/1T97mUZf2WwbRg4It7gtBzetqPN-6TqH_?usp=sharing" target="_blank">Open In Colab</a>
