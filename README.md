@@ -24,7 +24,7 @@
 <br>
  낮을수록 좋은 SMAPE 점수 6.1점대로 우승자들의 점수인 4.8~5.1까지 낮추지는 못했지만, EDA부터 모델 구축 및 예측까지의 과정을 혼자 진행해 볼 수 있었습니다.</p>
 
-## Finamce data
+## Finance_data
 <a href="https://colab.research.google.com/drive/1NdCkzNjmdgL-5AyPmVn3hzIjp8zwPib7?usp=sharing" target="_blank">Open In Colab</a>
 <p> 다양한 퀀트 투자 기법에 대한 공부. 딥러닝을 이용한 주가예측.
 <br>
