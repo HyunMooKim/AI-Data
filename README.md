@@ -1,5 +1,3 @@
-# python-Data
-
 주요 코드 설명:
 
 ## KRX_contest_preliminary
@@ -8,6 +6,11 @@
 <p>Code for KRX Stock Investment Algorithm Contest. This code is for the KRX Stock Investment Algorithm Contest and is used for developing and testing investment strategies using Korean stock market data. The code includes data preprocessing, feature engineering, model training and evaluation, and prediction. The code is hosted on Google Colab and can be accessed through the provided link.</p>
 
 <p>KRX 주식 투자 알고리즘 대회 예선 코드로, 한국 주식 데이터를 사용하여 1~2000위 순위를 매긴 포트폴리오를 만드는 코드입니다. 데이터 전처리, 피처 엔지니어링, 모델 학습 및 평가, 그리고 예측 등의 내용이 있습니다. </p>
+
+## KRX_Contest 
+ KRX 주식 투자 알고리즘 대회 본선 코드<br>
+  <a href="https://colab.research.google.com/drive/1bc2SnW_vzGbg70Yzb1AHfe_wZm6F80Si?usp=sharing" target="_blank">Open In Colab</a>
+<p> 퀀트 투자 방식의 알고리즘. 자세한 내용은 코드에 있습니다. </p>
 
 ## Kim-Monte Carlo 
  <a href="https://colab.research.google.com/drive/1KbifpPGvyYG17oHZxXQ-n8rfZFUWbvWh?usp=sharing" target="_blank">Open In Colab</a>
