@@ -1,10 +1,16 @@
 주요 코드 설명:
-## DAB_입지선정,
+
+## Lag_Problem_ANN
+ 졸업논문 "딥러닝을 이용한 가격예측 연구의 검증 및 개선 방안"에 활용된 코드<br>
+  <a href="https://colab.research.google.com/drive/1LtK79cTCYDlYXpJ3z87-INJOBy1vNnrm?usp=sharing" target="_blank">Open In Colab</a>
+
+
+## DAB_입지선정
  고려대학교 경영대학(원) DAB(Data Analytics for Business) 경진대회 - 공용 양우산 서비스 입지 선정 코드<br>
   <a href="https://colab.research.google.com/drive/1bVrIFePzMK5k9fqry68nUz0CgOim6OAb?usp=sharing" target="_blank">Open In Colab</a>
 <p>데이터 전처리, MCLP</p>
 
-## DAB_설문조사,
+## DAB_설문조사
 고려대학교 경영대학(원) DAB(Data Analytics for Business) 경진대회 - 설문조사 응답 분석 코드 <br>
   <a href="https://colab.research.google.com/drive/1RRQctFZu-39I_54ODPByRdBCJRzx0gb3?usp=sharing" target="_blank">Open In Colab</a>
 <p>자연어 처리, 긍부정 분류, shap</p>
