@@ -4,7 +4,6 @@
  졸업논문 "딥러닝을 이용한 가격예측 연구의 검증 및 개선 방안"에 활용된 코드<br>
   <a href="https://colab.research.google.com/drive/1LtK79cTCYDlYXpJ3z87-INJOBy1vNnrm?usp=sharing" target="_blank">Open In Colab</a>
 
-
 ## DAB_입지선정
  고려대학교 경영대학(원) DAB(Data Analytics for Business) 경진대회 - 공용 양우산 서비스 입지 선정 코드<br>
   <a href="https://colab.research.google.com/drive/1bVrIFePzMK5k9fqry68nUz0CgOim6OAb?usp=sharing" target="_blank">Open In Colab</a>
@@ -36,13 +35,3 @@
 <p> EDA로 데이터가 어떤 특성을 갖는지 살펴보고, 데이터 featuring으로 의미 있는 파생 변수들을 만들고 XGBOOST, CATBOOST, LGBM, Random Forest 등 다양한 기법을 이용하여 예측을 진행해 보았습니다.
 <br>
  낮을수록 좋은 SMAPE 점수 6.1점대로 우승자들의 점수인 4.8~5.1까지 낮추지는 못했지만, EDA부터 모델 구축 및 예측까지의 과정을 혼자 진행해 볼 수 있었습니다.</p>
-
-## Finance_data
-<a href="https://colab.research.google.com/drive/1NdCkzNjmdgL-5AyPmVn3hzIjp8zwPib7?usp=sharing" target="_blank">Open In Colab</a>
-<p> 다양한 퀀트 투자 기법에 대한 공부. 딥러닝을 이용한 주가예측.
-<br>
-</p>
-
-## 다중회귀분석
- 금가격 예측 및 헤지전략을 위한 다중회귀분석 
-<p>다중회귀분석</p>
